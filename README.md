@@ -22,7 +22,7 @@ if (!require(devtools)) install.packages("devtools")
 
 # Install the limeR package from GitHub
 devtools::install_github("your_username/limeR")
-
+```
 ## Examples
 
 ```r
@@ -49,3 +49,4 @@ quote_data <- getQuote(symbol = "AAPL", api.key = token)
 historical_data <- getHistory(symbol = "AAPL", api.key = token,
                               start_date = "2023-07-01", end_date = "2023-07-31",
                               period = "day")
+```
