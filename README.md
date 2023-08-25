@@ -10,7 +10,7 @@ The package employs HTTP-based requests to communicate with Lime Trading's API e
 
 ## Author
 
-Your Name
+Vyacheslav Arbuzov
 
 ## Installation
 
@@ -21,7 +21,7 @@ You can install the package using the following R code:
 if (!require(devtools)) install.packages("devtools")
 
 # Install the limeR package from GitHub
-devtools::install_github("your_username/limeR")
+devtools::install_github("arbuzovv/limeR")
 ```
 ## Examples
 
