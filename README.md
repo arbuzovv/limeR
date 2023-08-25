@@ -50,3 +50,4 @@ historical_data <- getHistory(symbol = "AAPL", api.key = token,
                               start_date = "2023-07-01", end_date = "2023-07-31",
                               period = "day")
 ```
+More detailed examples, see: https://rpubs.com/arbuzov/limer_toy_algo
