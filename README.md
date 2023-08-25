@@ -22,3 +22,30 @@ if (!require(devtools)) install.packages("devtools")
 
 # Install the limeR package from GitHub
 devtools::install_github("your_username/limeR")
+
+## Examples
+
+```r
+# Authenticate and retrieve access token
+token <- getToken(client_id = "your_client_id",
+                  client_secret = "your_client_secret",
+                  username = "your_username",
+                  password = "your_password")
+
+# Retrieve account information
+account_info <- getAccount(api.key = token)
+
+# Place a buy order
+order_result <- placeOrder(account = "your_account_number",
+                           api.key = token,
+                           symbol = "AAPL",
+                           quantity = 10,
+                           side = "buy")
+
+# Retrieve real-time market data quote for a symbol
+quote_data <- getQuote(symbol = "AAPL", api.key = token)
+
+# Fetch historical market data
+historical_data <- getHistory(symbol = "AAPL", api.key = token,
+                              start_date = "2023-07-01", end_date = "2023-07-31",
+                              period = "day")
