@@ -1,0 +1,27 @@
+{
+    "id": "5C19C70D",
+    "path": "~/Documents/GitHub/limeR/R/getAccount.R",
+    "project_path": "R/getAccount.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1692956256884.0,
+    "source_on_save": false,
+    "relative_order": 18,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "11,4",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1692956260,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1692956260986,
+    "read_only": false,
+    "read_only_alternatives": []
+}

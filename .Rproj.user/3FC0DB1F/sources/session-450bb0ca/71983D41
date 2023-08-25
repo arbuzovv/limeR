@@ -1,0 +1,27 @@
+{
+    "id": "71983D41",
+    "path": "~/Documents/GitHub/limeR/R/getTrades.R",
+    "project_path": "R/getTrades.R",
+    "type": "r_source",
+    "hash": "3555095040",
+    "contents": "",
+    "dirty": false,
+    "created": 1692941594673.0,
+    "source_on_save": false,
+    "relative_order": 5,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "16,4",
+        "scrollLine": "7"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1692956415,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1692956415593,
+    "read_only": false,
+    "read_only_alternatives": []
+}

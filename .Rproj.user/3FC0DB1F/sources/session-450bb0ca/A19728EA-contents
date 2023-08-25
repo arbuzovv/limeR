@@ -1,0 +1,10 @@
+
+
+
+closeOrder = function(api.key,order_id)
+{
+  url = paste0('https://api.lime.co/orders/',order_id,'/cancel')
+  headers = c( Authorization = paste0('Bearer ',api.key))
+  res = POST(url,add_headers(headers))
+  return(content(res, "parsed"))
+}
